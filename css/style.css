@@ -91,36 +91,25 @@ body {
 .Section-Singlephoto{
     
     background-color: gray;
-    margin:0;
-    
-}
-.SecondSection-Photomaster{
-    margin: 0;
-    display: flex;
-    flex-direction: row;
+
 }
 
-.SecondSection-Phototank{
-    justify-content: flex-start;
+.SecondSection-Singlephoto{
+    display: inline-flex;
+    background-color: #0007ff;
+  
     
-} 
+  
+}
 .SecondSection-Description{
-    
-    padding: 10em 2em 4em;
-    margin: 0;
+    padding: 12em 6em 2em 4em;
     width: 650px;
-    height: 100%;
+    height: 80%;
     line-height: 130%;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
-    justify-content: flex-end;
-}
-.SecondSection-Description:hover{
-    background-color: #0000ff;
 
 }
-
-
 
 .SecondSection-Button{
     display: block;
